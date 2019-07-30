@@ -6,13 +6,13 @@
 /* .wrap {
    min-height: 100vh; im using styling for 600px instead
 } */
-#our_story, #review {
+#our_story, #review, #menu, #contact {
    min-height: 600px;
 }
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:focus {
    color: #f8512f;
-   background-color: rgba(17,17,17,.2);
+   background-color: rgba(17, 17 ,17, 0.2);
 }
 /* important */
 nav.navbar {
@@ -140,7 +140,7 @@ nav.navbar {
 
 /* Menu */
 #menu {
-    background-image: url('.../img/black_linen.png');
+    background-image: url('../img/black_linen.png');
     background-size: cover;
     background-attachment: fixed;
     padding-top: 40px;
